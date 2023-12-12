@@ -5,6 +5,15 @@ export default navbar([
     "/",
     // 读书笔记
     "/reading-notes/",
+    {
+        text: "音乐分享",
+        icon: "music",
+        prefix: "/music-notes/",
+        children: [
+            "sodagreen/",
+            "wuqingfeng/"
+        ]
+    },
     // demo 示例
     "/demo/",
     {
